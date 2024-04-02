@@ -1,0 +1,28 @@
+.hero{
+    display: flex;
+    align-items:center;
+    height:600px;
+    margin-left: 200px;
+    gap: 100px;
+   
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+.h1 {
+    font-weight: 1000;
+    line-height: 200px;
+    font-size: 2000px;
+  }
+.p {
+    font-weight: 1000;
+    color: var(--grey);
+    max-width: 1000px;
+  }  
+.hero-image{
+    display: flex;
+    gap: 1000px;
+}
+

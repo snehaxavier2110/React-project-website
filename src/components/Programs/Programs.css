@@ -1,0 +1,25 @@
+.programs{
+    margin: 120px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.program img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.program{
+    flex-basis: 31%;
+}
+.caption{
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    cursor: pointer;
+    opacity: 0.75;
+}
